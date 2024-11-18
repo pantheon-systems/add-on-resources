@@ -1,0 +1,17 @@
+# https://backstage.io/docs/features/software-catalog/
+# https://backstage.io/docs/features/software-catalog/descriptor-format
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pcc-add-on-resources
+  description: This project manages the image resources loaded by the Pantheon Content Publisher add-on
+  annotations:
+    backstage.io/techdocs-ref: dir:/
+    pantheon.io/service-catalog/subdir: /
+    github.com/project-slug: pantheon-systems/add-on-resources
+    github.com/team-slug: pantheon-systems/pcc
+spec:
+  type: library
+  lifecycle: Introduction
+  owner: content-cloud
